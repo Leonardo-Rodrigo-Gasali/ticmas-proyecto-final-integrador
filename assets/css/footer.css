@@ -1,0 +1,50 @@
+.footer {
+  height: 300px;
+  margin: 45px auto;
+}
+
+.titulo-footer h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.contenedor-footer {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 45px 50px;
+}
+
+.columna {
+  line-height: 1.5;
+}
+
+.footer-contenido {
+  font-size: 18px;
+}
+
+.columna p {
+  font-size: 15px;
+}
+
+.redessociales-iconos {
+  text-align: center;
+  cursor: pointer;
+}
+
+.redessociales-iconos img {
+  width: 50px;
+  margin: 0 20px;
+}
+
+.copyright {
+  text-align: center;
+  margin: 15px 0;
+  background-color: black;
+  color: white;
+  padding: 15px 0;
+}
+
+/* Boton hacia arriba */
+
